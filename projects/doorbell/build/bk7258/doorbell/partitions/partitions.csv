@@ -1,0 +1,10 @@
+Name,Offset,Size,Execute,Read,Write
+primary_bootloader,0x00000000,68K,True,True,False
+primary_cp_app,0x00011000,1360K,True,True,False
+primary_ap_app,0x00165000,1156K,True,True,False
+ota,0x00286000,1428K,False,True,True
+usr_config,0x003eb000,60K,False,True,True
+easyflash,0x007fa000,8K,False,True,True
+easyflash_ap,0x007fc000,8K,False,True,True
+sys_rf,0x007fe000,4K,False,True,True
+sys_net,0x007ff000,4K,False,True,True

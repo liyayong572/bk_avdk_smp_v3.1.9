@@ -1,0 +1,61 @@
+// Copyright 2022-2024 Beken
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+//This is a generated file, don't modify it!
+
+#pragma once
+
+#define CONFIG_FLASH_CRC_ENABLE                       1
+#define CONFIG_PARTITIONS_NUM                         9
+#define CONFIG_BOOTLOADER_PARTITION_OFFSET            0x00000000
+#define CONFIG_BOOTLOADER_PARTITION_SIZE              0x00011000
+#define CONFIG_APPLICATION_PARTITION_OFFSET           0x00011000
+#define CONFIG_APPLICATION_PARTITION_SIZE             0x00154000
+#define CONFIG_APPLICATION1_PARTITION_OFFSET          0x00165000
+#define CONFIG_APPLICATION1_PARTITION_SIZE            0x00121000
+#define CONFIG_SYS_RF_PARTITION_OFFSET                0x007fe000
+#define CONFIG_SYS_RF_PARTITION_SIZE                  0x00001000
+#define CONFIG_SYS_NET_PARTITION_OFFSET               0x007ff000
+#define CONFIG_SYS_NET_PARTITION_SIZE                 0x00001000
+#define CONFIG_OTA_PARTITION_OFFSET                   0x00286000
+#define CONFIG_OTA_PARTITION_SIZE                     0x00165000
+#define CONFIG_USR_CONFIG_PARTITION_OFFSET            0x003eb000
+#define CONFIG_USR_CONFIG_PARTITION_SIZE              0x0000f000
+#define CONFIG_EASYFLASH_PARTITION_OFFSET             0x007fa000
+#define CONFIG_EASYFLASH_PARTITION_SIZE               0x00002000
+#define CONFIG_EASYFLASH_AP_PARTITION_OFFSET          0x007fc000
+#define CONFIG_EASYFLASH_AP_PARTITION_SIZE            0x00002000
+
+#define BK_PARTITIONS_TABLE_SIZE                      9
+#define BK_PARTITION_BOOTLOADER                       0
+#define BK_PARTITION_APPLICATION                      1
+#define BK_PARTITION_APPLICATION1                     2
+#define BK_PARTITION_SYS_RF                           3
+#define BK_PARTITION_SYS_NET                          4
+#define BK_PARTITION_OTA                              5
+#define BK_PARTITION_USR_CONFIG                       6
+#define BK_PARTITION_EASYFLASH                        7
+#define BK_PARTITION_EASYFLASH_AP                     8
+
+#define BK_FLASH_PARTITIONS_MAP { \
+    [0] = {BK_FLASH_EMBEDDED, "bootloader", CONFIG_BOOTLOADER_PARTITION_OFFSET, CONFIG_BOOTLOADER_PARTITION_SIZE, PAR_OPT_EXECUTE_EN | PAR_OPT_READ_EN | PAR_OPT_WRITE_DIS}, \
+    [1] = {BK_FLASH_EMBEDDED, "application", CONFIG_APPLICATION_PARTITION_OFFSET, CONFIG_APPLICATION_PARTITION_SIZE, PAR_OPT_EXECUTE_EN | PAR_OPT_READ_EN | PAR_OPT_WRITE_DIS}, \
+    [2] = {BK_FLASH_EMBEDDED, "application1", CONFIG_APPLICATION1_PARTITION_OFFSET, CONFIG_APPLICATION1_PARTITION_SIZE, PAR_OPT_EXECUTE_EN | PAR_OPT_READ_EN | PAR_OPT_WRITE_DIS}, \
+    [3] = {BK_FLASH_EMBEDDED, "sys_rf", CONFIG_SYS_RF_PARTITION_OFFSET, CONFIG_SYS_RF_PARTITION_SIZE, PAR_OPT_EXECUTE_DIS | PAR_OPT_READ_EN | PAR_OPT_WRITE_EN}, \
+    [4] = {BK_FLASH_EMBEDDED, "sys_net", CONFIG_SYS_NET_PARTITION_OFFSET, CONFIG_SYS_NET_PARTITION_SIZE, PAR_OPT_EXECUTE_DIS | PAR_OPT_READ_EN | PAR_OPT_WRITE_EN}, \
+    [5] = {BK_FLASH_EMBEDDED, "ota", CONFIG_OTA_PARTITION_OFFSET, CONFIG_OTA_PARTITION_SIZE, PAR_OPT_EXECUTE_DIS | PAR_OPT_READ_EN | PAR_OPT_WRITE_EN}, \
+    [6] = {BK_FLASH_EMBEDDED, "usr_config", CONFIG_USR_CONFIG_PARTITION_OFFSET, CONFIG_USR_CONFIG_PARTITION_SIZE, PAR_OPT_EXECUTE_DIS | PAR_OPT_READ_EN | PAR_OPT_WRITE_EN}, \
+    [7] = {BK_FLASH_EMBEDDED, "easyflash", CONFIG_EASYFLASH_PARTITION_OFFSET, CONFIG_EASYFLASH_PARTITION_SIZE, PAR_OPT_EXECUTE_DIS | PAR_OPT_READ_EN | PAR_OPT_WRITE_EN}, \
+    [8] = {BK_FLASH_EMBEDDED, "easyflash_ap", CONFIG_EASYFLASH_AP_PARTITION_OFFSET, CONFIG_EASYFLASH_AP_PARTITION_SIZE, PAR_OPT_EXECUTE_DIS | PAR_OPT_READ_EN | PAR_OPT_WRITE_EN}, \
+}

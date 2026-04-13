@@ -1,0 +1,4 @@
+source "/home/liyy/work/bk_avdk_smp_v3.1.1.8/bk_avdk_smp/ap/middleware/arch/cm33/Kconfig"
+source "/home/liyy/work/bk_avdk_smp_v3.1.1.8/bk_avdk_smp/ap/middleware/compal/Kconfig"
+source "/home/liyy/work/bk_avdk_smp_v3.1.1.8/bk_avdk_smp/ap/middleware/driver/Kconfig"
+source "/home/liyy/work/bk_avdk_smp_v3.1.1.8/bk_avdk_smp/ap/middleware/soc/bk7258_ap/Kconfig"

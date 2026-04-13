@@ -1,0 +1,9 @@
+Memory region         Used Size  Region Size  %age Used
+           FLASH:      971068 B      1280 KB     74.09%
+            IRAM:        3456 B     199424 B      1.73%
+             RAM:       82720 B     199424 B     41.48%
+            SWAP:          2 KB         2 KB    100.00%
+    HARDWARE_ACC:       23392 B       108 KB     21.15%
+            ITCM:       16008 B      16352 B     97.90%
+            DTCM:       15808 B      16352 B     96.67%
+      PSRAM_HEAP:          0 GB       256 KB      0.00%

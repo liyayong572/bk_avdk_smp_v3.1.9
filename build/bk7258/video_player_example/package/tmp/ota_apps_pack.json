@@ -1,0 +1,19 @@
+{
+    "magic": "beken",
+    "crc_enable": true,
+    "count": 2,
+    "section": [
+        {
+            "firmware": "app.bin",
+            "partition": "app",
+            "start_addr": "0x00010000",
+            "size": "1280K"
+        },
+        {
+            "firmware": "app1.bin",
+            "partition": "app1",
+            "start_addr": "0x00150000",
+            "size": "2944K"
+        }
+    ]
+}

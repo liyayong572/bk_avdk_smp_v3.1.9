@@ -1,0 +1,54 @@
+------------------------------------------------------------
+---------------------  BUILD  SUMMARY  ---------------------
+------------------------------------------------------------
+===================== Partitions Table =====================
+Name                              Offset            Size    
+------------------------------------------------------------
+primary_bootloader              0x00000000          68K     
+primary_cp_app                  0x00011000         1360K    
+primary_ap_app                  0x00165000         1156K    
+ota                             0x00286000         1428K    
+usr_config                      0x003eb000          60K     
+(unused)                        0x003fa000         4096K    
+easyflash                       0x007fa000           8K     
+easyflash_ap                    0x007fc000           8K     
+sys_rf                          0x007fe000           4K     
+sys_net                         0x007ff000           4K     
+===================== APP Memory Info ======================
+>>>>>>>>>> CP
+name                     addr       size        used   usage
+------------------------------------------------------------
+FLASH                 0x02010000 0x00140000  971068 B 74.09%
+IRAM                  0x08071400 0x0002e300    3456 B  1.83%
+RAM                   0x28071400 0x0002e300   82720 B 43.72%
+SWAP                  0x2809f800 0x00000800    2048 B100.00%
+HARDWARE_ACC          0x28010000 0x0001b000   23392 B 21.15%
+ITCM                  0x00000020 0x00003fe0   16008 B 97.90%
+DTCM                  0x20000000 0x00003fe0   15808 B 96.67%
+PSRAM_HEAP            0x60700000 0x00020000       0 B  0.00%
+<<<<<<<<<< CP
+>>>>>>>>>> AP
+name                     addr       size        used   usage
+------------------------------------------------------------
+FLASH                 0x02150000 0x00110000  792184 B 71.10%
+IRAM                  0x0802b000 0x00046400    1312 B  0.46%
+SPINLOCK              0x28000000 0x00010000   33300 B 50.81%
+RAM                   0x2802b000 0x00046400   47764 B 16.60%
+SWAP                  0x2809f800 0x00000800    2048 B100.00%
+HARDWARE_ACC          0x28010000 0x0001b000       4 B  0.00%
+ITCM0                 0x00000020 0x00003fe0     152 B  0.93%
+DTCM0                 0x20000004 0x00003ffc       0 B  0.00%
+ITCM1                 0x00000020 0x00003fe0       0 B  0.00%
+DTCM1                 0x20000004 0x00003ffc   13084 B 79.88%
+ITCM2                 0x00000020 0x00003fe0       0 B  0.00%
+DTCM2                 0x20000004 0x00003ffc   13084 B 79.88%
+PSRAM_SLAB_USER       0x60000000 0x00019000       0 B  0.00%
+PSRAM_SLAB_AUDIO      0x60019000 0x00019000       0 B  0.00%
+PSRAM_SLAB_ENCODE     0x60032000 0x0015e000       0 B  0.00%
+PSRAM_SLAB_DISPLAY    0x60190000 0x00570000       0 B  0.00%
+PSRAM_HEAP            0x60720000 0x000c0000       0 B  0.00%
+PSRAM_SECTION         0x607e0000 0x00020000       0 B  0.00%
+<<<<<<<<<< AP
+======================= Output Info ========================
+firmware: /home/liyy/work/bk_solution_doorbell/projects/doorbell/build/bk7258/doorbell/package/all-app.bin
+ota binary: /home/liyy/work/bk_solution_doorbell/projects/doorbell/build/bk7258/doorbell/package/app_pack.rbl

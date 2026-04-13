@@ -1,0 +1,5 @@
+source "/home/liyy/work/bk_avdk_smp_v3.1.1.8/bk_avdk_smp/cp/middleware/arch/cm33/Kconfig"
+source "/home/liyy/work/bk_avdk_smp_v3.1.1.8/bk_avdk_smp/cp/middleware/compal/Kconfig"
+source "/home/liyy/work/bk_avdk_smp_v3.1.1.8/bk_avdk_smp/cp/middleware/driver/Kconfig"
+source "/home/liyy/work/bk_avdk_smp_v3.1.1.8/bk_avdk_smp/cp/middleware/soc/bk7258/Kconfig"
+source "/home/liyy/work/bk_avdk_smp_v3.1.1.8/bk_avdk_smp/cp/middleware/boards/bk7258/vnd_cal/Kconfig"
