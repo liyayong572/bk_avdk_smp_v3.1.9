@@ -128,6 +128,7 @@
 /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258_ap/armino/http/CMakeFiles/__armino_http.dir
 /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258_ap/armino/http/CMakeFiles/edit_cache.dir
 /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258_ap/armino/http/CMakeFiles/rebuild_cache.dir
+/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258_ap/armino/key/CMakeFiles/__armino_key.dir
 /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258_ap/armino/key/CMakeFiles/edit_cache.dir
 /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258_ap/armino/key/CMakeFiles/rebuild_cache.dir
 /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258_ap/armino/bk_websocket/CMakeFiles/edit_cache.dir

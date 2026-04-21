@@ -102,20 +102,15 @@
      92	      0	     92	     92	      0	      0	      0	     92	     5c	lib_a-strncat.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
     120	      0	    120	    120	      0	      0	      0	    120	     78	lib_a-strncmp.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
     100	      0	    100	    100	      0	      0	      0	    100	     64	lib_a-strncpy.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
-     36	      0	     36	     36	      0	      0	      0	     36	     24	lib_a-strrchr.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
      48	      0	     48	     48	      0	      0	      0	     48	     30	lib_a-strspn.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
-   1080	      0	   1080	   1080	      0	      0	      0	   1080	    438	lib_a-strstr.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
     304	      0	    304	    304	      0	      0	      0	    304	    130	lib_a-strtol.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
     300	      0	    300	    300	      0	      0	      0	    300	    12c	lib_a-strtoul.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
-     36	      0	     36	     36	      0	      0	      0	     36	     24	lib_a-strnlen.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
     128	      0	    128	    128	      0	      0	      0	    128	     80	lib_a-memchr-stub.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
-     16	      0	     16	     16	      0	      0	      0	     16	     10	lib_a-sysstat.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
      56	      0	     56	     56	      0	      0	      0	     56	     38	lib_a-vsprintf.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
    4398	      0	   4398	   4232	    166	      0	      0	   4398	   112e	lib_a-dtoa.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
       8	      0	      8	      8	      0	      0	      0	      8	      8	lib_a-localeconv.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
    2299	      0	   2299	   1900	    399	      0	      0	   2299	    8fb	lib_a-mprec.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
     112	      0	    112	    112	      0	      0	      0	    112	     70	lib_a-s_frexp.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
-     44	      0	     44	     44	      0	      0	      0	     44	     2c	lib_a-statr.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
    6886	      0	   6886	   6788	     98	      0	      0	   6886	   1ae6	lib_a-svfprintf.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
     108	      0	    108	    108	      0	      0	      0	    108	     6c	lib_a-callocr.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
      44	      0	     44	     44	      0	      0	      0	     44	     2c	lib_a-mbtowc_r.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
@@ -124,22 +119,22 @@
     257	      0	    257	      0	    257	      0	      0	    257	    101	lib_a-ctype_.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
     379	    364	     15	      0	     15	    364	      0	    379	    17b	lib_a-locale.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
    1068	   1068	      0	      0	      0	   1068	      0	   1068	    42c	lib_a-impure.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a)
-  21887	   1432	  20455	  19520	    935	   1432	      0	  21887	   557f	/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a
+  20675	   1432	  19243	  18308	    935	   1432	      0	  20675	   50c3	/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   2671	     92	   2671	   1732	    939	      0	     92	   2763	    acb	trap_base_smp.c.obj (ex armino/cm33/libcm33.a)
+   2691	    112	   2671	   1732	    939	     20	     92	   2783	    adf	trap_base_smp.c.obj (ex armino/cm33/libcm33.a)
     511	     16	    511	    448	     63	      0	     16	    527	    20f	mpu.c.obj (ex armino/cm33/libcm33.a)
     285	      0	    285	    148	    137	      0	      0	    285	    11d	stack_base.c.obj (ex armino/cm33/libcm33.a)
     112	      0	    112	    112	      0	      0	      0	    112	     70	arm.c.obj (ex armino/cm33/libcm33.a)
     252	    256	    252	    252	      0	      0	    256	    508	    1fc	arch_interrupt.c.obj (ex armino/cm33/libcm33.a)
     152	      0	    152	    152	      0	      0	      0	    152	     98	dwt.c.obj (ex armino/cm33/libcm33.a)
-   3983	    364	   3983	   2844	   1139	      0	    364	   4347	   10fb	armino/cm33/libcm33.a
+   4003	    384	   3983	   2844	   1139	     20	    364	   4367	   110f	armino/cm33/libcm33.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
     117	      4	    117	     90	     27	      0	      4	    121	     79	reset_reason.c.obj (ex armino/driver/libdriver.a)
      56	     13	     56	     56	      0	      0	     13	     69	     45	wdt_driver.c.obj (ex armino/driver/libdriver.a)
     942	     64	    942	    834	    108	      0	     64	   1006	    3ee	spinlock.c.obj (ex armino/driver/libdriver.a)
-    250	      0	    250	    250	      0	      0	      0	    250	     fa	sys_clock_driver.c.obj (ex armino/driver/libdriver.a)
+    116	      0	    116	    116	      0	      0	      0	    116	     74	sys_clock_driver.c.obj (ex armino/driver/libdriver.a)
      78	      0	     78	     38	     40	      0	      0	     78	     4e	sys_driver_common.c.obj (ex armino/driver/libdriver.a)
     466	     24	    466	    436	     30	      0	     24	    490	    1ea	amp_res_lock.c.obj (ex armino/driver/libdriver.a)
    1046	    120	   1046	    978	     68	      0	    120	   1166	    48e	mb_ipc_cmd.c.obj (ex armino/driver/libdriver.a)
@@ -148,19 +143,18 @@
     256	    111	    256	    256	      0	      0	    111	    367	    16f	mbox0_adapter.c.obj (ex armino/driver/libdriver.a)
     428	     25	    428	    404	     24	      0	     25	    453	    1c5	mbox0_drv.c.obj (ex armino/driver/libdriver.a)
      70	      0	     70	     70	      0	      0	      0	     70	     46	mbox0_cross_core.c.obj (ex armino/driver/libdriver.a)
-    326	      0	    326	    326	      0	      0	      0	    326	    146	sys_int_driver.c.obj (ex armino/driver/libdriver.a)
+    214	      0	    214	    214	      0	      0	      0	    214	     d6	sys_int_driver.c.obj (ex armino/driver/libdriver.a)
     688	      0	    688	    176	    512	      0	      0	    688	    2b0	interrupt_base.c.obj (ex armino/driver/libdriver.a)
    1768	      0	   1768	   1768	      0	      0	      0	   1768	    6e8	interrupt.c.obj (ex armino/driver/libdriver.a)
    2395	     10	   2395	   1210	   1185	      0	     10	   2405	    965	flash_client.c.obj (ex armino/driver/libdriver.a)
     126	      0	    126	    126	      0	      0	      0	    126	     7e	driver.c.obj (ex armino/driver/libdriver.a)
     106	      0	    106	    106	      0	      0	      0	    106	     6a	sys_driver.c.obj (ex armino/driver/libdriver.a)
     172	      0	    172	    172	      0	      0	      0	    172	     ac	sys_ps_driver.c.obj (ex armino/driver/libdriver.a)
-     26	      0	     26	     26	      0	      0	      0	     26	     1a	sys_psram_driver.c.obj (ex armino/driver/libdriver.a)
       2	      0	      2	      2	      0	      0	      0	      2	      2	dd.c.obj (ex armino/driver/libdriver.a)
      24	    460	     24	     24	      0	      0	    460	    484	    1e4	drv_model.c.obj (ex armino/driver/libdriver.a)
     360	     33	    360	    360	      0	      0	     33	    393	    189	timer_driver.c.obj (ex armino/driver/libdriver.a)
      36	      0	     36	     36	      0	      0	      0	     36	     24	aon_pmu_driver.c.obj (ex armino/driver/libdriver.a)
-   2331	    237	   2323	   1164	   1159	      8	    229	   2560	    a00	gpio_driver_base.c.obj (ex armino/driver/libdriver.a)
+   2399	    237	   2391	   1232	   1159	      8	    229	   2628	    a44	gpio_driver_base.c.obj (ex armino/driver/libdriver.a)
    2793	    213	   2673	   2298	    375	    120	     93	   2886	    b46	uart_driver.c.obj (ex armino/driver/libdriver.a)
    4522	      0	   4522	   4404	    118	      0	      0	   4522	   11aa	printf.c.obj (ex armino/driver/libdriver.a)
    1247	     28	   1247	   1102	    145	      0	     28	   1275	    4fb	pwr_clk.c.obj (ex armino/driver/libdriver.a)
@@ -168,18 +162,17 @@
     785	      4	    785	    472	    313	      0	      4	    789	    315	pm_ap_core.c.obj (ex armino/driver/libdriver.a)
    1515	     39	   1515	   1196	    319	      0	     39	   1554	    612	h264_driver.c.obj (ex armino/driver/libdriver.a)
    1056	     81	   1056	    884	    172	      0	     81	   1137	    471	yuv_buf_driver.c.obj (ex armino/driver/libdriver.a)
-     10	      0	     10	     10	      0	      0	      0	     10	      a	sys_usb_driver.c.obj (ex armino/driver/libdriver.a)
-   3624	    669	   3624	   3366	    258	      0	    669	   4293	   10c5	dma_driver.c.obj (ex armino/driver/libdriver.a)
+   3552	    669	   3552	   3294	    258	      0	    669	   4221	   107d	dma_driver.c.obj (ex armino/driver/libdriver.a)
      52	      0	     52	     52	      0	      0	      0	     52	     34	i2c_unified.c.obj (ex armino/driver/libdriver.a)
    2760	    153	   2760	   2516	    244	      0	    153	   2913	    b61	i2c_driver.c.obj (ex armino/driver/libdriver.a)
     806	      5	    806	    806	      0	      0	      5	    811	    32b	sim_i2c_driver.c.obj (ex armino/driver/libdriver.a)
-   2275	     87	   2275	   1856	    419	      0	     87	   2362	    93a	lcd_driver.c.obj (ex armino/driver/libdriver.a)
-   2068	      4	   2068	   1574	    494	      0	      4	   2072	    818	sim_spi_driver.c.obj (ex armino/driver/libdriver.a)
+     20	      6	     20	     20	      0	      0	      6	     26	     1a	lcd_driver.c.obj (ex armino/driver/libdriver.a)
+    459	      4	    459	    392	     67	      0	      4	    463	    1cf	sim_spi_driver.c.obj (ex armino/driver/libdriver.a)
    3198	     72	   3126	   2350	    776	     72	      0	   3198	    c7e	lcd_spi_driver.c.obj (ex armino/driver/libdriver.a)
-   1040	     49	   1040	    916	    124	      0	     49	   1089	    441	dma2d_driver.c.obj (ex armino/driver/libdriver.a)
+    170	      0	    170	    170	      0	      0	      0	    170	     aa	dma2d_driver.c.obj (ex armino/driver/libdriver.a)
     156	     13	    156	    156	      0	      0	     13	    169	     a9	trng_driver.c.obj (ex armino/driver/libdriver.a)
     629	      0	    629	    252	    377	      0	      0	    629	    275	flash_partition.c.obj (ex armino/driver/libdriver.a)
-    216	     20	    216	    216	      0	      0	     20	    236	     ec	flash_notify.c.obj (ex armino/driver/libdriver.a)
+    204	     20	    204	    204	      0	      0	     20	    224	     e0	flash_notify.c.obj (ex armino/driver/libdriver.a)
    3474	    148	   3378	   2980	    398	     96	     52	   3526	    dc6	spi_driver.c.obj (ex armino/driver/libdriver.a)
      32	     64	     32	     32	      0	      0	     64	     96	     60	spi_statis.c.obj (ex armino/driver/libdriver.a)
    1073	     25	   1049	    936	    113	     24	      1	   1074	    432	qspi_driver.c.obj (ex armino/driver/libdriver.a)
@@ -189,22 +182,20 @@
    2753	     46	   2753	   2088	    665	      0	     46	   2799	    aef	sdio_host_driver.c.obj (ex armino/driver/libdriver.a)
     580	     17	    580	    580	      0	      0	     17	    597	    255	aud_common_driver.c.obj (ex armino/driver/libdriver.a)
    1179	      0	   1179	    986	    193	      0	      0	   1179	    49b	aud_adc_driver.c.obj (ex armino/driver/libdriver.a)
-   1475	      0	   1475	   1178	    297	      0	      0	   1475	    5c3	aud_dac_driver.c.obj (ex armino/driver/libdriver.a)
-    676	      0	    676	    676	      0	      0	      0	    676	    2a4	audio_ring_buff.c.obj (ex armino/driver/libdriver.a)
+    813	      0	    813	    732	     81	      0	      0	    813	    32d	aud_dac_driver.c.obj (ex armino/driver/libdriver.a)
+    476	      0	    476	    476	      0	      0	      0	    476	    1dc	audio_ring_buff.c.obj (ex armino/driver/libdriver.a)
    4266	   1753	   3858	   3390	    468	    408	   1345	   5611	   15eb	mb_ipc.c.obj (ex armino/driver/libdriver.a)
     141	      0	    141	     88	     53	      0	      0	    141	     8d	mb_ipc_heartbeat.c.obj (ex armino/driver/libdriver.a)
    2690	      4	   2690	   1712	    978	      0	      4	   2694	    a86	bk_api_ipc.c.obj (ex armino/driver/libdriver.a)
     509	      0	    509	    240	    269	      0	      0	    509	    1fd	gpio_driver.c.obj (ex armino/driver/libdriver.a)
     526	      8	    526	    388	    138	      0	      8	    534	    216	pm_ap_demo.c.obj (ex armino/driver/libdriver.a)
-    640	      0	    640	    640	      0	      0	      0	    640	    280	sys_audio_driver.c.obj (ex armino/driver/libdriver.a)
-    572	      4	    572	    572	      0	      0	      4	    576	    240	sys_video_driver.c.obj (ex armino/driver/libdriver.a)
+    614	      0	    614	    614	      0	      0	      0	    614	    266	sys_audio_driver.c.obj (ex armino/driver/libdriver.a)
+    430	      4	    430	    430	      0	      0	      4	    434	    1b2	sys_video_driver.c.obj (ex armino/driver/libdriver.a)
     104	      0	    104	    104	      0	      0	      0	    104	     68	sys_bt_driver.c.obj (ex armino/driver/libdriver.a)
    1050	      0	   1050	    902	    148	      0	      0	   1050	    41a	spi_flash.c.obj (ex armino/driver/libdriver.a)
    2406	      0	   2406	   1884	    522	      0	      0	   2406	    966	qspi_flash.c.obj (ex armino/driver/libdriver.a)
    3129	     62	   3125	   2356	    769	      4	     58	   3187	    c73	sd_card_driver.c.obj (ex armino/driver/libdriver.a)
-   7554	    303	   7554	   6992	    562	      0	    303	   7857	   1eb1	i2s_driver.c.obj (ex armino/driver/libdriver.a)
-   1293	     45	   1293	   1032	    261	      0	     45	   1338	    53a	jpeg_dec_driver.c.obj (ex armino/driver/libdriver.a)
-  81211	   6340	  80467	  66876	  13591	    744	   5596	  86807	  15317	armino/driver/libdriver.a
+  66302	   5862	  65558	  53976	  11582	    744	   5118	  71420	  116fc	armino/driver/libdriver.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
    1190	     75	   1189	   1108	     81	      1	     74	   1264	    4f0	printf.c.obj (ex armino/bk_system/libbk_system.a)
@@ -231,18 +222,16 @@
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
     117	     85	     32	     32	      0	     85	      0	    117	     75	mpu_cfg.c.obj (ex armino/bk7258_ap/libbk7258_ap.a)
-   1582	      0	   1582	   1582	      0	      0	      0	   1582	    62e	sys_hal.c.obj (ex armino/bk7258_ap/libbk7258_ap.a)
+   1278	      0	   1278	   1278	      0	      0	      0	   1278	    4fe	sys_hal.c.obj (ex armino/bk7258_ap/libbk7258_ap.a)
     254	      0	    254	    158	     96	      0	      0	    254	     fe	aon_pmu_hal.c.obj (ex armino/bk7258_ap/libbk7258_ap.a)
     108	      0	    108	    108	      0	      0	      0	    108	     6c	timer_hal.c.obj (ex armino/bk7258_ap/libbk7258_ap.a)
     594	      4	    594	    540	     54	      0	      4	    598	    256	sys_pm_hal.c.obj (ex armino/bk7258_ap/libbk7258_ap.a)
     160	      0	    160	     32	    128	      0	      0	    160	     a0	jpeg_ll.c.obj (ex armino/bk7258_ap/libbk7258_ap.a)
-    784	      1	    784	    784	      0	      0	      1	    785	    311	i2s_hal.c.obj (ex armino/bk7258_ap/libbk7258_ap.a)
-   3599	     90	   3514	   3236	    278	     85	      5	   3604	    e14	armino/bk7258_ap/libbk7258_ap.a
+   2511	     89	   2426	   2148	    278	     85	      4	   2515	    9d3	armino/bk7258_ap/libbk7258_ap.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
     150	      0	    150	    150	      0	      0	      0	    150	     96	wdt_hal.c.obj (ex armino/common/libcommon.a)
    1186	      0	   1186	   1090	     96	      0	      0	   1186	    4a2	mbox0_hal.c.obj (ex armino/common/libcommon.a)
-    802	      0	    802	    802	      0	      0	      0	    802	    322	lcd_disp_hal.c.obj (ex armino/common/libcommon.a)
     160	      0	    160	    160	      0	      0	      0	    160	     a0	timer_hal.c.obj (ex armino/common/libcommon.a)
     498	      0	    498	    460	     38	      0	      0	    498	    1f2	dma_hal.c.obj (ex armino/common/libcommon.a)
     700	      0	    700	    638	     62	      0	      0	    700	    2bc	spi_hal.c.obj (ex armino/common/libcommon.a)
@@ -254,11 +243,10 @@
     308	      0	    308	    308	      0	      0	      0	    308	    134	jpeg_hal.c.obj (ex armino/common/libcommon.a)
     470	      0	    470	    470	      0	      0	      0	    470	    1d6	yuv_buf_hal.c.obj (ex armino/common/libcommon.a)
     650	      0	    650	    650	      0	      0	      0	    650	    28a	h264_hal.c.obj (ex armino/common/libcommon.a)
-     24	      0	     24	     24	      0	      0	      0	     24	     18	aud_hal.c.obj (ex armino/common/libcommon.a)
+     12	      0	     12	     12	      0	      0	      0	     12	      c	aud_hal.c.obj (ex armino/common/libcommon.a)
     162	      0	    162	    162	      0	      0	      0	    162	     a2	sdio_host_hal.c.obj (ex armino/common/libcommon.a)
-    904	      0	    904	    904	      0	      0	      0	    904	    388	dma2d_hal.c.obj (ex armino/common/libcommon.a)
-   3312	    224	   3248	   3084	    164	     64	    160	   3472	    d90	jpeg_dec_hal.c.obj (ex armino/common/libcommon.a)
-  14403	    232	  14339	  12486	   1853	     64	    168	  14571	   38eb	armino/common/libcommon.a
+    656	      0	    656	    656	      0	      0	      0	    656	    290	dma2d_hal.c.obj (ex armino/common/libcommon.a)
+  10029	      8	  10029	   8340	   1689	      0	      8	  10037	   2735	armino/common/libcommon.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
     241	     32	    241	    236	      5	      0	     32	    273	    111	system_main.c.obj (ex armino/bk_startup/libbk_startup.a)
@@ -275,12 +263,12 @@
    3585	     73	   3584	   3080	    504	      1	     72	   3657	    e49	armino/bk_aud_param_ctrl/libbk_aud_param_ctrl.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   4043	     24	   4043	   3238	    805	      0	     24	   4067	    fe3	aec_v3_algorithm.c.obj (ex armino/aec_v3_algorithm/libaec_v3_algorithm.a)
-   4043	     24	   4043	   3238	    805	      0	     24	   4067	    fe3	armino/aec_v3_algorithm/libaec_v3_algorithm.a
+   1489	      0	   1489	    944	    545	      0	      0	   1489	    5d1	aec_v3_algorithm.c.obj (ex armino/aec_v3_algorithm/libaec_v3_algorithm.a)
+   1489	      0	   1489	    944	    545	      0	      0	   1489	    5d1	armino/aec_v3_algorithm/libaec_v3_algorithm.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   5483	     32	   5483	   3936	   1547	      0	     32	   5515	   158b	onboard_speaker_stream.c.obj (ex armino/onboard_speaker_stream/libonboard_speaker_stream.a)
-   5483	     32	   5483	   3936	   1547	      0	     32	   5515	   158b	armino/onboard_speaker_stream/libonboard_speaker_stream.a
+   1106	      0	   1106	    618	    488	      0	      0	   1106	    452	onboard_speaker_stream.c.obj (ex armino/onboard_speaker_stream/libonboard_speaker_stream.a)
+   1106	      0	   1106	    618	    488	      0	      0	   1106	    452	armino/onboard_speaker_stream/libonboard_speaker_stream.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
    3212	     48	   3212	   2030	   1182	      0	     48	   3260	    cbc	onboard_mic_stream.c.obj (ex armino/onboard_mic_stream/libonboard_mic_stream.a)
@@ -316,30 +304,24 @@
    1780	    794	   1018	   1018	      0	    762	     32	   1812	    714	armino/bk_pm/libbk_pm.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   8338	      0	   8338	   4624	   3714	      0	      0	   8338	   2092	bk_voice_service.c.obj (ex armino/bk_voice_service/libbk_voice_service.a)
-   1438	     44	   1438	    912	    526	      0	     44	   1482	    5ca	bk_voice_read_service.c.obj (ex armino/bk_voice_service/libbk_voice_service.a)
-   2293	     44	   2293	   1556	    737	      0	     44	   2337	    921	bk_voice_write_service.c.obj (ex armino/bk_voice_service/libbk_voice_service.a)
-  12069	     88	  12069	   7092	   4977	      0	     88	  12157	   2f7d	armino/bk_voice_service/libbk_voice_service.a
+    106	      0	    106	    106	      0	      0	      0	    106	     6a	bk_voice_service.c.obj (ex armino/bk_voice_service/libbk_voice_service.a)
+    106	      0	    106	    106	      0	      0	      0	    106	     6a	armino/bk_voice_service/libbk_voice_service.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
      26	      0	     26	     26	      0	      0	      0	     26	     1a	ap_main.c.obj (ex armino/ap/libap.a)
-    731	      0	    731	     12	    719	      0	      0	    731	    2db	video_player_cli.c.obj (ex armino/ap/libap.a)
-   6596	   4424	   6595	   4520	   2075	      1	   4423	  11019	   2b0b	video_recorder_cli.c.obj (ex armino/ap/libap.a)
-  11416	     57	  11416	   7884	   3532	      0	     57	  11473	   2cd1	module_test_cli.c.obj (ex armino/ap/libap.a)
-   8466	     25	   8466	   4060	   4406	      0	     25	   8491	   212b	video_play_engine_cli.c.obj (ex armino/ap/libap.a)
-  10414	     26	  10414	   5016	   5398	      0	     26	  10440	   28c8	video_play_playlist_cli.c.obj (ex armino/ap/libap.a)
-   2685	      0	   2685	   1388	   1297	      0	      0	   2685	    a7d	audio_player_device.c.obj (ex armino/ap/libap.a)
-   4217	      0	   4217	   2452	   1765	      0	      0	   4217	   1079	audio_recorder_device.c.obj (ex armino/ap/libap.a)
-    787	      1	    787	    388	    399	      0	      1	    788	    314	video_player_common.c.obj (ex armino/ap/libap.a)
-    740	      0	    740	    452	    288	      0	      0	    740	    2e4	video_play_callbacks.c.obj (ex armino/ap/libap.a)
-  46078	   4533	  46077	  26198	  19879	      1	   4532	  50610	   c5b2	armino/ap/libap.a
+    424	      2	    424	    368	     56	      0	      2	    426	    1aa	sport_dv_app.c.obj (ex armino/ap/libap.a)
+    168	      1	    168	    138	     30	      0	      1	    169	     a9	sport_dv_common.c.obj (ex armino/ap/libap.a)
+    132	     28	    132	    132	      0	      0	     28	    160	     a0	sport_dv_keys.c.obj (ex armino/ap/libap.a)
+    681	    102	    681	    552	    129	      0	    102	    783	    30f	sport_dv_preview.c.obj (ex armino/ap/libap.a)
+   1229	   2065	   1229	   1100	    129	      0	   2065	   3294	    cde	sport_dv_video_rec.c.obj (ex armino/ap/libap.a)
+   4228	      0	   4228	   2452	   1776	      0	      0	   4228	   1084	audio_recorder_device.c.obj (ex armino/ap/libap.a)
+   1107	     17	   1107	   1010	     97	      0	     17	   1124	    464	sport_dv_display.c.obj (ex armino/ap/libap.a)
+   7995	   2215	   7995	   5778	   2217	      0	   2215	  10210	   27e2	armino/ap/libap.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-  13828	      0	  13828	  12158	   1670	      0	      0	  13828	   3604	aec.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaec_v3.a)
-   6038	      0	   6038	   1098	   4940	      0	      0	   6038	   1796	aec_fft.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaec_v3.a)
-   4538	      0	   4538	   4538	      0	      0	      0	   4538	   11ba	rfft.S.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaec_v3.a)
+    792	      0	    792	    792	      0	      0	      0	    792	    318	aec.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaec_v3.a)
    8672	      0	   8672	      0	   8672	      0	      0	   8672	   21e0	aec_data.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaec_v3.a)
-  33076	      0	  33076	  17794	  15282	      0	      0	  33076	   8134	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaec_v3.a
+   9464	      0	   9464	    792	   8672	      0	      0	   9464	   24f8	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaec_v3.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
     377	      0	    377	    240	    137	      0	      0	    377	    179	bk_camera.c.obj (ex armino/bk_camera/libbk_camera.a)
@@ -370,33 +352,32 @@
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
    1124	      0	   1124	    842	    282	      0	      0	   1124	    464	mem_arch.c.obj (ex armino/bk_rtos/libbk_rtos.a)
-   3221	      9	   3221	   3018	    203	      0	      9	   3230	    c9e	rtos_pub_smp.c.obj (ex armino/bk_rtos/libbk_rtos.a)
+   2996	      9	   2996	   2818	    178	      0	      9	   3005	    bbd	rtos_pub_smp.c.obj (ex armino/bk_rtos/libbk_rtos.a)
     128	      0	    128	     64	     64	      0	      0	    128	     80	rtos_debug.c.obj (ex armino/bk_rtos/libbk_rtos.a)
+    128	      0	    128	    118	     10	      0	      0	    128	     80	str_arch.c.obj (ex armino/bk_rtos/libbk_rtos.a)
     253	      0	    253	    166	     87	      0	      0	    253	     fd	platform_stub.c.obj (ex armino/bk_rtos/libbk_rtos.a)
-    136	      0	    136	    126	     10	      0	      0	    136	     88	str_arch.c.obj (ex armino/bk_rtos/libbk_rtos.a)
     453	      4	    453	    414	     39	      0	      4	    457	    1c9	pthread_local_storage.c.obj (ex armino/bk_rtos/libbk_rtos.a)
-   5315	     13	   5315	   4630	    685	      0	     13	   5328	   14d0	armino/bk_rtos/libbk_rtos.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   2209	      0	   2209	   1548	    661	      0	      0	   2209	    8a1	bk_display_rgb_ctlr.c.obj (ex armino/bk_display/libbk_display.a)
-    880	      0	    880	    556	    324	      0	      0	    880	    370	bk_display.c.obj (ex armino/bk_display/libbk_display.a)
-   1457	      0	   1457	   1010	    447	      0	      0	   1457	    5b1	bk_display_spi_ctlr.c.obj (ex armino/bk_display/libbk_display.a)
-   4546	      0	   4546	   3114	   1432	      0	      0	   4546	   11c2	armino/bk_display/libbk_display.a
+   5082	     13	   5082	   4422	    660	      0	     13	   5095	   13e7	armino/bk_rtos/libbk_rtos.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
    3031	    132	   3031	   2576	    455	      0	    132	   3163	    c5b	heap_4.c.obj (ex armino/os_source/libos_source.a)
    1003	      0	   1003	    884	    119	      0	      0	   1003	    3eb	event_groups.c.obj (ex armino/os_source/libos_source.a)
     138	      0	    138	    138	      0	      0	      0	    138	     8a	list.c.obj (ex armino/os_source/libos_source.a)
-   3181	      0	   3181	   2852	    329	      0	      0	   3181	    c6d	queue.c.obj (ex armino/os_source/libos_source.a)
+   3091	      0	   3091	   2788	    303	      0	      0	   3091	    c13	queue.c.obj (ex armino/os_source/libos_source.a)
    7665	    404	   7661	   7078	    583	      4	    400	   8065	   1f81	tasks.c.obj (ex armino/os_source/libos_source.a)
    1524	    404	   1524	   1350	    174	      0	    404	   1928	    788	timers.c.obj (ex armino/os_source/libos_source.a)
    1397	     58	   1396	   1274	    122	      1	     57	   1454	    5ae	port.c.obj (ex armino/os_source/libos_source.a)
     216	      0	    216	    216	      0	      0	      0	    216	     d8	portasm.c.obj (ex armino/os_source/libos_source.a)
-  18155	    998	  18150	  16368	   1782	      5	    993	  19148	   4acc	armino/os_source/libos_source.a
+  18065	    998	  18060	  16304	   1756	      5	    993	  19058	   4a72	armino/os_source/libos_source.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
     530	      0	    530	    396	    134	      0	      0	    530	    212	frame_buffer.c.obj (ex armino/multimedia/libmultimedia.a)
     530	      0	    530	    396	    134	      0	      0	    530	    212	armino/multimedia/libmultimedia.a
+
+  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
+    749	      0	    749	    444	    305	      0	      0	    749	    2ed	bk_display.c.obj (ex armino/bk_display/libbk_display.a)
+   1457	      0	   1457	   1010	    447	      0	      0	   1457	    5b1	bk_display_spi_ctlr.c.obj (ex armino/bk_display/libbk_display.a)
+   2206	      0	   2206	   1454	    752	      0	      0	   2206	    89e	armino/bk_display/libbk_display.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
    1074	     32	   1074	    924	    150	      0	     32	   1106	    452	psram_mem_slab.c.obj (ex armino/media_utils/libmedia_utils.a)
@@ -408,26 +389,26 @@
    4655	    648	   4655	   2362	   2293	      0	    648	   5303	   14b7	armino/coredump/libcoredump.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-    851	    116	    851	    692	    159	      0	    116	    967	    3c7	bk_filesystem.c.obj (ex armino/bk_vfs/libbk_vfs.a)
+    721	    116	    721	    576	    145	      0	    116	    837	    345	bk_filesystem.c.obj (ex armino/bk_vfs/libbk_vfs.a)
     335	      8	    335	    280	     55	      0	      8	    343	    157	bk_file_utils.c.obj (ex armino/bk_vfs/libbk_vfs.a)
-   1186	    128	   1058	    976	     82	    128	      0	   1186	    4a2	bk_vfs.c.obj (ex armino/bk_vfs/libbk_vfs.a)
+    771	    128	    643	    604	     39	    128	      0	    771	    303	bk_vfs.c.obj (ex armino/bk_vfs/libbk_vfs.a)
    2305	     96	   2209	   1746	    463	     96	      0	   2305	    901	fatfs_adapter.c.obj (ex armino/bk_vfs/libbk_vfs.a)
    1996	    100	   1900	   1504	    396	     96	      4	   2000	    7d0	littlefs_adapter.c.obj (ex armino/bk_vfs/libbk_vfs.a)
     152	    640	    152	    152	      0	      0	    640	    792	    318	bk_fdtable.c.obj (ex armino/bk_vfs/libbk_vfs.a)
-   6825	   1088	   6505	   5350	   1155	    320	    768	   7593	   1da9	armino/bk_vfs/libbk_vfs.a
+   6280	   1088	   5960	   4862	   1098	    320	    768	   7048	   1b88	armino/bk_vfs/libbk_vfs.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-    644	      7	    644	    568	     76	      0	      7	    651	    28b	usb_driver.c.obj (ex armino/bk_usb/libbk_usb.a)
-   3063	   1124	   3055	   2102	    953	      8	   1116	   4179	   1053	usbh_core.c.obj (ex armino/bk_usb/libbk_usb.a)
-   4429	    729	   4429	   4368	     61	      0	    729	   5158	   1426	usb_hc_beken_musb.c.obj (ex armino/bk_usb/libbk_usb.a)
-   4270	     73	   4270	   3398	    872	      0	     73	   4343	   10f7	usbh_hub.c.obj (ex armino/bk_usb/libbk_usb.a)
-   1644	    132	   1644	   1562	     82	      0	    132	   1776	    6f0	usbh_video.c.obj (ex armino/bk_usb/libbk_usb.a)
-   1942	   1900	   1942	   1794	    148	      0	   1900	   3842	    f02	usbh_audio.c.obj (ex armino/bk_usb/libbk_usb.a)
+     60	      5	     60	     60	      0	      0	      5	     65	     41	usb_driver.c.obj (ex armino/bk_usb/libbk_usb.a)
+    613	     92	    605	    380	    225	      8	     84	    697	    2b9	usbh_core.c.obj (ex armino/bk_usb/libbk_usb.a)
+   2214	    729	   2214	   2194	     20	      0	    729	   2943	    b7f	usb_hc_beken_musb.c.obj (ex armino/bk_usb/libbk_usb.a)
+   1365	     49	   1365	   1110	    255	      0	     49	   1414	    586	usbh_hub.c.obj (ex armino/bk_usb/libbk_usb.a)
+   1132	    132	   1132	   1050	     82	      0	    132	   1264	    4f0	usbh_video.c.obj (ex armino/bk_usb/libbk_usb.a)
+   1410	   1892	   1410	   1262	    148	      0	   1892	   3302	    ce6	usbh_audio.c.obj (ex armino/bk_usb/libbk_usb.a)
    1322	     41	   1322	   1144	    178	      0	     41	   1363	    553	usbh_msc.c.obj (ex armino/bk_usb/libbk_usb.a)
    1147	    321	   1147	   1030	    117	      0	    321	   1468	    5bc	usbh_ch34x.c.obj (ex armino/bk_usb/libbk_usb.a)
-    140	      0	    140	    140	      0	      0	      0	    140	     8c	usb_osal_adaptor.c.obj (ex armino/bk_usb/libbk_usb.a)
-   4328	   1044	   4328	   3336	    992	      0	   1044	   5372	   14fc	bk_usbh_hub_multiple_classes_api.c.obj (ex armino/bk_usb/libbk_usb.a)
-  22929	   5371	  22921	  19442	   3479	      8	   5363	  28292	   6e84	armino/bk_usb/libbk_usb.a
+     40	      0	     40	     40	      0	      0	      0	     40	     28	usb_osal_adaptor.c.obj (ex armino/bk_usb/libbk_usb.a)
+   2162	   1044	   2162	   1732	    430	      0	   1044	   3206	    c86	bk_usbh_hub_multiple_classes_api.c.obj (ex armino/bk_usb/libbk_usb.a)
+  11465	   4305	  11457	  10002	   1455	      8	   4297	  15762	   3d92	armino/bk_usb/libbk_usb.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
     284	      0	    284	     28	    256	      0	      0	    284	    11c	avdk_crc.c.obj (ex armino/avdk_utils/libavdk_utils.a)
@@ -467,6 +448,12 @@
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
       4	      0	      4	      4	      0	      0	      0	      4	      4	lite-log.c.obj (ex armino/http/libhttp.a)
       4	      0	      4	      4	      0	      0	      0	      4	      4	armino/http/libhttp.a
+
+  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
+   1081	     17	   1081	    736	    345	      0	     17	   1098	    44a	key_adapter.c.obj (ex armino/key/libkey.a)
+    635	     29	    635	    458	    177	      0	     29	    664	    298	key_main.c.obj (ex armino/key/libkey.a)
+   1011	      4	   1011	    832	    179	      0	      4	   1015	    3f7	multi_button.c.obj (ex armino/key/libkey.a)
+   2727	     50	   2727	   2026	    701	      0	     50	   2777	    ad9	armino/key/libkey.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
      10	      0	     10	     10	      0	      0	      0	     10	      a	bk_ef.c.obj (ex armino/easy_flash/libeasy_flash.a)
@@ -564,66 +551,47 @@
    1379	      0	   1379	   1368	     11	      0	      0	   1379	    563	gattc_sdp.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libbluetooth_host_ble_ap.a)
    1535	     32	   1535	   1430	    105	      0	     32	   1567	    61f	l2cc.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libbluetooth_host_ble_ap.a)
     626	      0	    626	    626	      0	      0	      0	    626	    272	l2cc_lecb.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libbluetooth_host_ble_ap.a)
-   2709	      0	   2709	   2364	    345	      0	      0	   2709	    a95	l2cc_pdu.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libbluetooth_host_ble_ap.a)
+   2711	      0	   2711	   2364	    347	      0	      0	   2711	    a97	l2cc_pdu.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libbluetooth_host_ble_ap.a)
      58	      0	     58	     58	      0	      0	      0	     58	     3a	kernel_queue.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libbluetooth_host_ble_ap.a)
- 104848	  18723	 104838	  91416	  13422	     10	  18713	 123561	  1e2a9	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libbluetooth_host_ble_ap.a
+ 104850	  18723	 104840	  91416	  13424	     10	  18713	 123563	  1e2ab	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libbluetooth_host_ble_ap.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
      32	      4	     32	     32	      0	      0	      4	     36	     24	audio_osi.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaudio_osi.a)
      32	      4	     32	     32	      0	      0	      4	     36	     24	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaudio_osi.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   6916	      0	   6916	   5694	   1222	      0	      0	   6916	   1b04	avilib_write.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libavi.a)
-   3034	      0	   3034	   2706	    328	      0	      0	   3034	    bda	avilib_read.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libavi.a)
-   3611	      0	   3611	   2318	   1293	      0	      0	   3611	    e1b	avilib_segment.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libavi.a)
-  13561	      0	  13561	  10718	   2843	      0	      0	  13561	   34f9	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libavi.a
+   6804	      0	   6804	   5604	   1200	      0	      0	   6804	   1a94	avilib_write.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libavi.a)
+   6804	      0	   6804	   5604	   1200	      0	      0	   6804	   1a94	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libavi.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
    8492	      0	   8492	   7580	    912	      0	      0	   8492	   212c	mp4lib_write_boxes.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libmp4.a)
-    917	      0	    917	    798	    119	      0	      0	    917	    395	mp4lib_common.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libmp4.a)
-   2859	      0	   2859	   2224	    635	      0	      0	   2859	    b2b	mp4lib_read.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libmp4.a)
-   3252	      0	   3252	   3066	    186	      0	      0	   3252	    cb4	mp4lib_read_segment.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libmp4.a)
-  10026	      0	  10026	   6924	   3102	      0	      0	  10026	   272a	mp4lib_read_boxes.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libmp4.a)
    4685	      0	   4685	   3994	    691	      0	      0	   4685	   124d	mp4lib_write.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libmp4.a)
-  30231	      0	  30231	  24586	   5645	      0	      0	  30231	   7617	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libmp4.a
+    719	      0	    719	    600	    119	      0	      0	    719	    2cf	mp4lib_common.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libmp4.a)
+  13896	      0	  13896	  12174	   1722	      0	      0	  13896	   3648	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libmp4.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
      32	      4	     32	     32	      0	      0	      4	     36	     24	video_osi.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libvideo_osi.a)
      32	      4	     32	     32	      0	      0	      4	     36	     24	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libvideo_osi.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   6034	      0	   6034	   4514	   1520	      0	      0	   6034	   1792	audio_element.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
+   5711	      0	   5711	   4278	   1433	      0	      0	   5711	   164f	audio_element.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
    1294	      0	   1294	   1030	    264	      0	      0	   1294	    50e	audio_event_iface.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
    2027	      4	   2027	   1636	    391	      0	      4	   2031	    7ef	audio_pipeline.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
    1052	      0	   1052	    942	    110	      0	      0	   1052	    41c	ringbuf.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
-   1507	      0	   1507	   1384	    123	      0	      0	   1507	    5e3	framebuf.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
     286	      0	    286	    196	     90	      0	      0	    286	    11e	audio_mem.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
       4	      0	      4	      4	      0	      0	      0	      4	      4	audio_thread.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
    1228	      0	   1228	    936	    292	      0	      0	   1228	    4cc	audio_port.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
     833	      0	    833	    576	    257	      0	      0	    833	    341	cb_port.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
    1895	      0	   1895	   1352	    543	      0	      0	   1895	    767	rb_port.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
    2183	      0	   2183	   1508	    675	      0	      0	   2183	    887	fb_port.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
-    266	      0	    266	    220	     46	      0	      0	    266	    10a	audio_port_info_list.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
-  18609	      4	  18609	  14298	   4311	      0	      4	  18613	   48b5	armino/audio_pipeline/libaudio_pipeline.a
+   1495	      0	   1495	   1372	    123	      0	      0	   1495	    5d7	framebuf.c.obj (ex armino/audio_pipeline/libaudio_pipeline.a)
+  18008	      4	  18008	  13830	   4178	      0	      4	  18012	   465c	armino/audio_pipeline/libaudio_pipeline.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-    608	      0	    608	    388	    220	      0	      0	    608	    260	uart_util.c.obj (ex armino/audio_utils/libaudio_utils.a)
-   1992	      0	   1992	   1176	    816	      0	      0	   1992	    7c8	count_util.c.obj (ex armino/audio_utils/libaudio_utils.a)
-    988	      0	    988	    540	    448	      0	      0	    988	    3dc	debug_dump_cli.c.obj (ex armino/audio_utils/libaudio_utils.a)
+    242	      0	    242	     88	    154	      0	      0	    242	     f2	uart_util.c.obj (ex armino/audio_utils/libaudio_utils.a)
+    756	      0	    756	    406	    350	      0	      0	    756	    2f4	count_util.c.obj (ex armino/audio_utils/libaudio_utils.a)
     317	    318	      9	      0	      9	    308	     10	    327	    147	debug_dump_util.c.obj (ex armino/audio_utils/libaudio_utils.a)
-   3905	    318	   3597	   2104	   1493	    308	     10	   3915	    f4b	armino/audio_utils/libaudio_utils.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   1345	      0	   1345	    964	    381	      0	      0	   1345	    541	aac_decoder.c.obj (ex armino/acc_decoder/libacc_decoder.a)
-   1345	      0	   1345	    964	    381	      0	      0	   1345	    541	armino/acc_decoder/libacc_decoder.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-    760	      0	    760	    602	    158	      0	      0	    760	    2f8	g711_decoder.c.obj (ex armino/g711_decoder/libg711_decoder.a)
-    760	      0	    760	    602	    158	      0	      0	    760	    2f8	armino/g711_decoder/libg711_decoder.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-    989	      0	    989	    746	    243	      0	      0	    989	    3dd	g722_decoder.c.obj (ex armino/g722_decoder/libg722_decoder.a)
-    989	      0	    989	    746	    243	      0	      0	    989	    3dd	armino/g722_decoder/libg722_decoder.a
+   1315	    318	   1007	    494	    513	    308	     10	   1325	    52d	armino/audio_utils/libaudio_utils.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
    2627	     44	   2627	   1664	    963	      0	     44	   2671	    a6f	aac_encoder.c.obj (ex armino/aac_encoder/libaac_encoder.a)
@@ -638,92 +606,13 @@
     794	      0	    794	    636	    158	      0	      0	    794	    31a	armino/g722_encoder/libg722_encoder.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   3111	     92	   3111	   2288	    823	      0	     92	   3203	    c83	i2s_stream.c.obj (ex armino/i2s_stream/libi2s_stream.a)
-   3111	     92	   3111	   2288	    823	      0	     92	   3203	    c83	armino/i2s_stream/libi2s_stream.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-    518	     88	    518	    380	    138	      0	     88	    606	    25e	raw_stream.c.obj (ex armino/raw_stream/libraw_stream.a)
-    518	     88	    518	    380	    138	      0	     88	    606	    25e	armino/raw_stream/libraw_stream.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   5176	     44	   5176	   3176	   2000	      0	     44	   5220	   1464	uac_mic_stream.c.obj (ex armino/uac_mic_stream/libuac_mic_stream.a)
-   5176	     44	   5176	   3176	   2000	      0	     44	   5220	   1464	armino/uac_mic_stream/libuac_mic_stream.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   5675	     44	   5675	   3572	   2103	      0	     44	   5719	   1657	uac_speaker_stream.c.obj (ex armino/uac_speaker_stream/libuac_speaker_stream.a)
-   5675	     44	   5675	   3572	   2103	      0	     44	   5719	   1657	armino/uac_speaker_stream/libuac_speaker_stream.a
+    470	     88	    470	    332	    138	      0	     88	    558	    22e	raw_stream.c.obj (ex armino/raw_stream/libraw_stream.a)
+    470	     88	    470	    332	    138	      0	     88	    558	    22e	armino/raw_stream/libraw_stream.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
    6761	      4	   6761	   5264	   1497	      0	      4	   6765	   1a6d	bk_dvp.c.obj (ex armino/bk_dvp/libbk_dvp.a)
      86	      0	     86	     86	      0	      0	      0	     86	     56	dvp_common.c.obj (ex armino/bk_dvp/libbk_dvp.a)
    6847	      4	   6847	   5350	   1497	      0	      4	   6851	   1ac3	armino/bk_dvp/libbk_dvp.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   5219	      0	   5219	   2636	   2583	      0	      0	   5219	   1463	bk_video_player_engine.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-   5163	      0	   5163	   3152	   2011	      0	      0	   5163	   142b	bk_video_player_playlist.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-    955	      0	    955	    734	    221	      0	      0	    955	    3bb	bk_video_player_file_list.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-   7336	     40	   7296	   4676	   2620	     40	      0	   7336	   1ca8	bk_video_player_avi_parser.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-   5885	     40	   5845	   3828	   2017	     40	      0	   5885	   16fd	bk_video_player_mp4_parser.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-     76	      0	     76	     76	      0	      0	      0	     76	     4c	bk_video_player_jpeg_probe.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-   3612	     24	   3588	   1656	   1932	     24	      0	   3612	    e1c	bk_video_player_hw_jpeg_decoder.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-   1968	     24	   1944	    920	   1024	     24	      0	   1968	    7b0	bk_video_player_sw_jpeg_decoder.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-    758	     24	    734	    548	    186	     24	      0	    758	    2f6	bk_video_player_virtual_h264_decoder.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-   1533	      0	   1533	    772	    761	      0	      0	   1533	    5fd	bk_video_player_aac_decoder.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-    955	      0	    955	    476	    479	      0	      0	    955	    3bb	bk_video_player_g711_decoder.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-   1209	      0	   1209	    576	    633	      0	      0	   1209	    4b9	bk_video_player_g722_decoder.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-  12123	      0	  12123	   8028	   4095	      0	      0	  12123	   2f5b	bk_video_player_ctlr.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-   5735	      0	   5735	   3304	   2431	      0	      0	   5735	   1667	bk_video_player_container_parse.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-   1843	      0	   1843	   1136	    707	      0	      0	   1843	    733	bk_video_player_buffer_pool.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-   1291	      0	   1291	    676	    615	      0	      0	   1291	    50b	bk_video_player_pipeline.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-   2943	      0	   2943	   2256	    687	      0	      0	   2943	    b7f	bk_video_player_audio_decode.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-   3012	      0	   3012	   2180	    832	      0	      0	   3012	    bc4	bk_video_player_video_decode.c.obj (ex armino/bk_video_player/libbk_video_player.a)
-  61616	    152	  61464	  37630	  23834	    152	      0	  61616	   f0b0	armino/bk_video_player/libbk_video_player.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   3214	      4	   3214	   2228	    986	      0	      4	   3218	    c92	hw_jpeg_decode.c.obj (ex armino/bk_jpeg_decoder/libbk_jpeg_decoder.a)
-    198	      0	    198	    198	      0	      0	      0	    198	     c6	jpeg_decode_utils.c.obj (ex armino/bk_jpeg_decoder/libbk_jpeg_decoder.a)
-    783	      0	    783	    428	    355	      0	      0	    783	    30f	bk_jpeg_decode_hw.c.obj (ex armino/bk_jpeg_decoder/libbk_jpeg_decoder.a)
-   2087	      0	   2087	   1080	   1007	      0	      0	   2087	    827	bk_hw_jpeg_decode_ctlr.c.obj (ex armino/bk_jpeg_decoder/libbk_jpeg_decoder.a)
-    939	      0	    939	    508	    431	      0	      0	    939	    3ab	bk_jpeg_decode_sw.c.obj (ex armino/bk_jpeg_decoder/libbk_jpeg_decoder.a)
-   4569	      0	   4569	   2912	   1657	      0	      0	   4569	   11d9	bk_sw_jpeg_decode_on_multi_core_ctlr.c.obj (ex armino/bk_jpeg_decoder/libbk_jpeg_decoder.a)
-   2993	      0	   2993	   2052	    941	      0	      0	   2993	    bb1	sw_jpeg_decode_dual_core.c.obj (ex armino/bk_jpeg_decoder/libbk_jpeg_decoder.a)
-  14941	  13188	   1869	   1208	    661	  13072	    116	  15057	   3ad1	sw_jpeg_decode_cp1.c.obj (ex armino/bk_jpeg_decoder/libbk_jpeg_decoder.a)
-  14941	  13188	   1869	   1208	    661	  13072	    116	  15057	   3ad1	sw_jpeg_decode_cp2.c.obj (ex armino/bk_jpeg_decoder/libbk_jpeg_decoder.a)
-  44665	  26380	  18521	  11822	   6699	  26144	    236	  44901	   af65	armino/bk_jpeg_decoder/libbk_jpeg_decoder.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-    645	      0	    645	    408	    237	      0	      0	    645	    285	bk_dma2d.c.obj (ex armino/bk_dma2d/libbk_dma2d.a)
-   4546	      4	   4546	   3032	   1514	      0	      4	   4550	   11c6	bk_dma2d_ctlr.c.obj (ex armino/bk_dma2d/libbk_dma2d.a)
-   5191	      4	   5191	   3440	   1751	      0	      4	   5195	   144b	armino/bk_dma2d/libbk_dma2d.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   4885	      0	   4885	   4076	    809	      0	      0	   4885	   1315	jdev.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libtjpg_sram.a)
-  13352	      0	  13352	  13160	    192	      0	      0	  13352	   3428	tjpgd.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libtjpg_sram.a)
-  18237	      0	  18237	  17236	   1001	      0	      0	  18237	   473d	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libtjpg_sram.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-    440	      0	    440	    440	      0	      0	      0	    440	    1b8	image_scale.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libscale_sram.a)
-    440	      0	    440	    440	      0	      0	      0	    440	    1b8	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libscale_sram.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-    896	      1	    896	    764	    132	      0	      1	    897	    381	aacdec.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-    128	      0	    128	    128	      0	      0	      0	    128	     80	buffers.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-   1026	      0	   1026	   1026	      0	      0	      0	   1026	    402	decelmnt.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-   1448	      0	   1448	    880	    568	      0	      0	   1448	    5a8	dequant.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-   1272	      0	   1272	   1272	      0	      0	      0	   1272	    4f8	filefmt.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-   2286	      0	   2286	   2286	      0	      0	      0	   2286	    8ee	imdct.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-   1678	      0	   1678	   1628	     50	      0	      0	   1678	    68e	noiseless.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-   1028	      0	   1028	   1012	     16	      0	      0	   1028	    404	pns.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-   1041	      0	   1041	    932	    109	      0	      0	   1041	    411	stproc.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-    956	      0	    956	    828	    128	      0	      0	    956	    3bc	tns.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-    346	      0	    346	    346	      0	      0	      0	    346	    15a	bitstream.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-    744	      0	    744	    728	     16	      0	      0	    744	    2e8	dct4.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-   1192	      0	   1192	   1176	     16	      0	      0	   1192	    4a8	fft.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-   1466	      0	   1466	   1360	    106	      0	      0	   1466	    5ba	huffman.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-   1160	      0	   1160	      0	   1160	      0	      0	   1160	    488	aactabs.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-  22106	      0	  22106	      0	  22106	      0	      0	  22106	   565a	trigtabs.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-   3060	      0	   3060	      0	   3060	      0	      0	   3060	    bf4	hufftabs.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a)
-  41833	      1	  41833	  14366	  27467	      0	      1	  41834	   a36a	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libaacdec.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
    8161	      0	   8161	   7652	    509	      0	      0	   8161	   1fe1	aacenc_lib.cpp.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libfdk_aac_enc.a)
@@ -802,15 +691,10 @@
  237184	      1	 237184	 170024	  67160	      0	      1	 237185	  39e81	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libfdk_aac_enc.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-    244	     32	    212	    212	      0	     32	      0	    244	     f4	g711.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libg711.a)
-    244	     32	    212	    212	      0	     32	      0	    244	     f4	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libg711.a
+    172	     32	    140	    140	      0	     32	      0	    172	     ac	g711.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libg711.a)
+    172	     32	    140	    140	      0	     32	      0	    172	     ac	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libg711.a
 
   flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-   2002	      0	   2002	   1238	    764	      0	      0	   2002	    7d2	g722_decode.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libg722.a)
    2044	      0	   2044	   1256	    788	      0	      0	   2044	    7fc	g722_encode.c.obj (ex /home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libg722.a)
-   4046	      0	   4046	   2494	   1552	      0	      0	   4046	    fce	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libg722.a
-
-  flash	    ram	   text	   code	 rodata	   data	    bss	    dec	    hex	filename
-     16	      0	     16	     16	      0	      0	      0	     16	     10	stat.o (ex /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libnosys.a)
-     16	      0	     16	     16	      0	      0	      0	     16	     10	/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libnosys.a
+   2044	      0	   2044	   1256	    788	      0	      0	   2044	    7fc	/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/components/bk_libs/bk7258_ap/libs/libg722.a
 

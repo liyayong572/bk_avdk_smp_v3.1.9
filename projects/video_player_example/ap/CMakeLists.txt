@@ -1,13 +1,11 @@
-set(incs . video_player_cli/include)
-set(srcs ap_main.c 
-        video_player_cli/src/video_player_cli.c
-        video_player_cli/src/video_player_common.c
-        video_player_cli/src/video_recorder_cli.c
-        video_player_cli/src/module_test_cli.c
-        video_player_cli/src/video_play_callbacks.c
-        video_player_cli/src/video_play_engine_cli.c
-        video_player_cli/src/video_play_playlist_cli.c
-        video_player_cli/src/audio_player_device.c
+set(incs . sport_dv/include video_player_cli/src)
+set(srcs ap_main.c
+        sport_dv/src/sport_dv_app.c
+        sport_dv/src/sport_dv_common.c
+        sport_dv/src/sport_dv_display.c
+        sport_dv/src/sport_dv_keys.c
+        sport_dv/src/sport_dv_preview.c
+        sport_dv/src/sport_dv_video_rec.c
         video_player_cli/src/audio_recorder_device.c
         )
 
@@ -23,7 +21,7 @@ endif()
 	
 set(GLOBAL_FUNCTION_SYMBOLS "")
 
-set(priv_req  lvgl media_service multimedia bk_camera bk_cli bk_display bk_voice_service bk_video_recorder)
+set(priv_req  media_service multimedia bk_camera bk_cli bk_display bk_voice_service bk_video_recorder key)
 
 # bk_video_player is built as an independent component. Add it explicitly so the example can
 # compile even if other dependency chains change.

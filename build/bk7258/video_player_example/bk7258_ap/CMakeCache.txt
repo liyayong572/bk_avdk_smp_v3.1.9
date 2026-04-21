@@ -422,6 +422,9 @@ __armino_i2s_stream_LIB_DEPENDS:STATIC=general;libm.a;general;libgcc.a;general;l
 __armino_image_convert_LIB_DEPENDS:STATIC=general;libm.a;general;libgcc.a;general;libc.a;general;libnosys.a;general;libm.a;general;libgcc.a;general;libc.a;general;libnosys.a;general;__armino_bk_common;general;__armino_common;
 
 //Dependencies for the target
+__armino_key_LIB_DEPENDS:STATIC=general;libm.a;general;libgcc.a;general;libc.a;general;libnosys.a;general;libm.a;general;libgcc.a;general;libc.a;general;libnosys.a;general;__armino_include;general;__armino_bk_common;general;__armino_common;general;__armino_part_table;
+
+//Dependencies for the target
 __armino_lcd_device_LIB_DEPENDS:STATIC=general;libm.a;general;libgcc.a;general;libc.a;general;libnosys.a;general;libm.a;general;libgcc.a;general;libc.a;general;libnosys.a;general;__armino_bk_common;general;__armino_common;
 
 //Dependencies for the target

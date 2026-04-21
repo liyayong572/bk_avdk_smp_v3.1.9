@@ -44,10 +44,10 @@ void bk_dma2d_blend_complete_cb(dma2d_trans_status_t status, void *user_data)
  * @param img_info 图像信息
  * @return bk_err_t 
  */
-bk_err_t bk_dma2d_image_blend(bk_dma2d_ctlr_handle_t handle, frame_buffer_t *frame, uint16_t lcd_width, uint16_t lcd_height, const bk_blend_t *img_info, bool is_sync)
+bk_err_t bk_dma2d_image_blend(bk_dma2d_ctlr_handle_t handle, frame_buffer_t *bg_frame, frame_buffer_t *dst_frame, uint16_t lcd_width, uint16_t lcd_height, const bk_blend_t *img_info, bool is_sync)
 {
     avdk_err_t ret = AVDK_ERR_OK;
-    if ((frame == NULL) || (img_info == NULL))
+    if ((bg_frame == NULL) || (dst_frame == NULL) || (img_info == NULL))
     {
         return BK_FAIL;
     }
@@ -66,29 +66,29 @@ bk_err_t bk_dma2d_image_blend(bk_dma2d_ctlr_handle_t handle, frame_buffer_t *fra
     
     uint16_t lcd_start_x = 0;
     uint16_t lcd_start_y = 0;
-    if ((lcd_width < frame->width) || (lcd_height < frame->height)) //for lcd size is small then frame image size
+    if ((lcd_width < bg_frame->width) || (lcd_height < bg_frame->height)) //for lcd size is small then frame image size
     {
-        if (lcd_width < frame->width)
+        if (lcd_width < bg_frame->width)
         {
-            lcd_start_x = (frame->width - lcd_width) / 2;
+            lcd_start_x = (bg_frame->width - lcd_width) / 2;
         }
-        if (lcd_height < frame->height)
+        if (lcd_height < bg_frame->height)
         {
-            lcd_start_y = (frame->height - lcd_height) / 2;
+            lcd_start_y = (bg_frame->height - lcd_height) / 2;
         }
     }
     
     LOGI("start: bg_width %d, bg_height %d, pos(%d, %d), xsize %d, ysize %d\n", 
-            frame->width, frame->height, img_dsc->xpos, img_dsc->ypos, img_dsc->width, img_dsc->height);
+            bg_frame->width, bg_frame->height, img_dsc->xpos, img_dsc->ypos, img_dsc->width, img_dsc->height);
             
     dma2d_blend_config_t blend_config = {0};
     
     blend_config.blend.pfg_addr = (char *)img_dsc->image.data;
-    blend_config.blend.pbg_addr = (char *)(frame->frame);
-    blend_config.blend.pdst_addr = (char *)(frame->frame);
+    blend_config.blend.pbg_addr = (char *)(bg_frame->frame);
+    blend_config.blend.pdst_addr = (char *)(dst_frame->frame);
     blend_config.blend.fg_color_mode = DMA2D_INPUT_ARGB8888;
     
-    switch (frame->fmt)
+    switch (bg_frame->fmt)
     {
         case PIXEL_FMT_YUYV:
             blend_config.blend.bg_color_mode = DMA2D_INPUT_YUYV;
@@ -109,16 +109,16 @@ bk_err_t bk_dma2d_image_blend(bk_dma2d_ctlr_handle_t handle, frame_buffer_t *fra
             break;
     }
     
-    blend_config.blend.fg_red_blue_swap = DMA2D_RB_SWAP;   
+    blend_config.blend.fg_red_blue_swap = DMA2D_RB_SWAP;
     blend_config.blend.bg_red_blue_swap = DMA2D_RB_REGULAR;
     blend_config.blend.dst_red_blue_swap = DMA2D_RB_REGULAR;
 
     blend_config.blend.fg_frame_width  = img_dsc->width;
     blend_config.blend.fg_frame_height = img_dsc->height;
-    blend_config.blend.bg_frame_width  = frame->width;
-    blend_config.blend.bg_frame_height = frame->height;
-    blend_config.blend.dst_frame_width = frame->width;
-    blend_config.blend.dst_frame_height = frame->height;
+    blend_config.blend.bg_frame_width  = bg_frame->width;
+    blend_config.blend.bg_frame_height = bg_frame->height;
+    blend_config.blend.dst_frame_width = dst_frame->width;
+    blend_config.blend.dst_frame_height = dst_frame->height;
 	
 
     blend_config.blend.fg_frame_xpos = 0;
@@ -130,7 +130,7 @@ bk_err_t bk_dma2d_image_blend(bk_dma2d_ctlr_handle_t handle, frame_buffer_t *fra
 
     blend_config.blend.fg_pixel_byte = FOUR_BYTES;
     
-    switch (frame->fmt)
+    switch (bg_frame->fmt)
     {
         case PIXEL_FMT_ARGB8888:
             blend_config.blend.bg_pixel_byte = FOUR_BYTES;
@@ -152,7 +152,8 @@ bk_err_t bk_dma2d_image_blend(bk_dma2d_ctlr_handle_t handle, frame_buffer_t *fra
     blend_config.blend.fg_alpha_mode = DMA2D_NO_MODIF_ALPHA;
     blend_config.blend.bg_alpha_mode = DMA2D_NO_MODIF_ALPHA;
 	
-	//blend_config.blend.out_byte_by_byte_reverse = NO_REVERSE;
+	blend_config.blend.out_byte_by_byte_reverse = (dst_frame->fmt == PIXEL_FMT_RGB565) ? BYTE_BY_BYTE_REVERSE : NO_REVERSE;
+	blend_config.blend.input_data_reverse = NO_REVERSE;
 	
     blend_config.transfer_complete_cb = bk_dma2d_blend_complete_cb;
     blend_config.is_sync = is_sync;
@@ -182,6 +183,7 @@ int dma2d_blend_test(bk_dma2d_ctlr_handle_t handle, const char *bg_format, uint3
     avdk_err_t ret = AVDK_ERR_OK;
     pixel_format_t fmt;
     uint8_t bg_pixel_byte = 0;
+    uint16_t bg_color_be = 0;
     if (os_strcmp(bg_format, "ARGB8888") == 0) {
         bg_pixel_byte = 4;
         fmt = PIXEL_FMT_ARGB8888;
@@ -191,8 +193,7 @@ int dma2d_blend_test(bk_dma2d_ctlr_handle_t handle, const char *bg_format, uint3
     } else {
         bg_pixel_byte = 2;
         fmt = PIXEL_FMT_RGB565; 
-
-		bg_color = ((bg_color & 0xFF) << 8) | ((bg_color >> 8) & 0xFF);
+        bg_color_be = ((bg_color & 0xFF) << 8) | ((bg_color >> 8) & 0xFF);
     }
     GPIO_DOWN(GPIO_4);
     GPIO_DOWN(GPIO_5);
@@ -202,53 +203,58 @@ int dma2d_blend_test(bk_dma2d_ctlr_handle_t handle, const char *bg_format, uint3
     frame_buffer_t *bg_frame = frame_buffer_display_malloc(bg_width * bg_height * bg_pixel_byte);
     AVDK_RETURN_ON_FALSE(bg_frame, AVDK_ERR_NOMEM, TAG, "frame_buffer_display_malloc failed! \n");
 
-    // Fill background frame based on input_bg_mode
+    frame_buffer_t *dst_frame = bg_frame;
+    if (fmt == PIXEL_FMT_RGB565) {
+        dst_frame = frame_buffer_display_malloc(bg_width * bg_height * bg_pixel_byte);
+        if (dst_frame == NULL) {
+            frame_buffer_display_free(bg_frame);
+            return AVDK_ERR_NOMEM;
+        }
+    }
+
     for (int i = 0; i < bg_width * bg_height; i++) {
         if (bg_pixel_byte == 4) {
             ((uint32_t *)bg_frame->frame)[i] = bg_color;
         } else if (bg_pixel_byte == 3) {
             uint8_t *pixel = (uint8_t *)bg_frame->frame + i * 3;
-            pixel[0] = (bg_color & 0xFF);         // Blue
-            pixel[1] = (bg_color & 0xFF00) >> 8;  // Green
-            pixel[2] = (bg_color & 0xFF0000) >> 16; // Red
-        } else { // RGB565
-            ((uint16_t *)bg_frame->frame)[i] = bg_color;
+            pixel[0] = (bg_color & 0xFF);
+            pixel[1] = (bg_color & 0xFF00) >> 8;
+            pixel[2] = (bg_color & 0xFF0000) >> 16;
+        } else {
+            ((uint16_t *)bg_frame->frame)[i] = (uint16_t)bg_color;
+            if (dst_frame != bg_frame) {
+                ((uint16_t *)dst_frame->frame)[i] = bg_color_be;
+            }
         }
     }
 
     bg_frame->width = bg_width;
     bg_frame->height = bg_height;
     bg_frame->fmt = fmt;
+    dst_frame->width = bg_width;
+    dst_frame->height = bg_height;
+    dst_frame->fmt = fmt;
 
-	/*
-    GPIO_UP(GPIO_4);
-    // 使用新的bk_dma2d_image_blend2函数
-    ret = bk_dma2d_image_blend(handle, bg_frame, 480, 854, &img_cloudy_to_sunny, is_sync);
+    ret = bk_dma2d_image_blend(handle, bg_frame, dst_frame, 160, 128, &img_battery1, (fmt == PIXEL_FMT_RGB565) ? true : is_sync);
     if (ret != AVDK_ERR_OK) {
-        LOGE("bk_dma2d_image_blend2 failed! \n");
+        LOGE("bk_dma2d_image_blend failed! \n");
+        if (dst_frame != bg_frame) {
+            frame_buffer_display_free(dst_frame);
+        }
+        frame_buffer_display_free(bg_frame);
         return ret;
     }
-    GPIO_DOWN(GPIO_4);
-    GPIO_UP(GPIO_4);
-    ret = bk_dma2d_image_blend(handle, bg_frame, 480, 854, &img_wifi_rssi0, is_sync);
-    if (ret != AVDK_ERR_OK) {
-        LOGE("bk_dma2d_image_blend2 failed! \n");
-        return ret;
+
+    if (dst_frame != bg_frame) {
+        frame_buffer_display_free(bg_frame);
     }
-    GPIO_DOWN(GPIO_4);
-    GPIO_UP(GPIO_4);
-	*/
-	
-    ret = bk_dma2d_image_blend(handle, bg_frame, 160, 128, &img_battery1, is_sync);
-    if (ret != AVDK_ERR_OK) {
-        LOGE("bk_dma2d_image_blend2 failed! \n");
-        return ret;
-    }
-    GPIO_DOWN(GPIO_4);
-    ret = bk_display_flush(lcd_display_handle, bg_frame, display_frame_free_cb);
+
+    ret = bk_display_flush(lcd_display_handle, dst_frame, display_frame_free_cb);
     if (ret != AVDK_ERR_OK) {
         LOGE("bk_display_flush failed!\n");
-        frame_buffer_display_free(bg_frame);
+        if (dst_frame != bg_frame) {
+            frame_buffer_display_free(dst_frame);
+        }
         return ret;
     }
     return ret;

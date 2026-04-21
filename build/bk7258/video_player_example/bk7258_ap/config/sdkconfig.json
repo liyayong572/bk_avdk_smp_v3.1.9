@@ -150,7 +150,7 @@
     "BT_REUSE_MEDIA_MEMORY": false,
     "BUCK_ENABLE": false,
     "BUILD_DEFAULT_VERSION": true,
-    "BUTTON": false,
+    "BUTTON": true,
     "CACHE_ENABLE": false,
     "CALENDAR": false,
     "CAN": false,

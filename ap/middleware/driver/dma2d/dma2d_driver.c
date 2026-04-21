@@ -491,7 +491,7 @@ bk_err_t bk_dma2d_offset_blend(dma2d_offset_blend_t *dma2d_blend)
 	dma2d_config.layer_cfg[DMA2D_BACKGROUND_LAYER].input_offset    = dma2d_blend->bg_frame_width - dma2d_blend->dma2d_width;/**< Background input offset*/
 	dma2d_config.layer_cfg[DMA2D_BACKGROUND_LAYER].red_blue_swap	= dma2d_blend->bg_red_blue_swap; 			 /**< No R&B swap for the input background image */
 	dma2d_config.layer_cfg[DMA2D_BACKGROUND_LAYER].alpha_inverted  = DMA2D_REGULAR_ALPHA;			/**< No alpha inversion for the input background image */
-	dma2d_config.layer_cfg[DMA2D_BACKGROUND_LAYER].input_data_reverse = NO_REVERSE;  /**< for yuv format data reverse, select byte by byte or hfword by hfword reverse */
+	dma2d_config.layer_cfg[DMA2D_BACKGROUND_LAYER].input_data_reverse = NO_REVERSE;  /**< Apply the same data reverse as foreground for background layer */
 
 	bk_dma2d_init(&dma2d_config);
 	bk_dma2d_layer_config(&dma2d_config, DMA2D_FOREGROUND_LAYER);

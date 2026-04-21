@@ -592,6 +592,25 @@ rule C_STATIC_LIBRARY_LINKER____armino_http_
 #############################################
 # Rule for compiling C files.
 
+rule C_COMPILER____armino_key_unscanned_
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}/opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C static library.
+
+rule C_STATIC_LIBRARY_LINKER____armino_key_
+  command = $PRE_LINK && /usr/bin/cmake -E rm -f $TARGET_FILE && /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ar qc $TARGET_FILE $LINK_FLAGS $in && /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ranlib $TARGET_FILE && $POST_BUILD
+  description = Linking C static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
 rule C_COMPILER____armino_bk_cli_unscanned_
   depfile = $DEP_FILE
   deps = gcc

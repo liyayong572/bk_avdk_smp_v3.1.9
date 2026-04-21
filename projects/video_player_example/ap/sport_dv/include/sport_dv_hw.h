@@ -1,0 +1,13 @@
+#pragma once
+
+#include <driver/gpio.h>
+
+#define SPORT_DV_GPIO_INVALID_ID  (0xFF)
+
+#define SPORT_DV_LCD_LDO_PIN      (GPIO_13)
+
+#ifdef CONFIG_DVP_CTRL_POWER_GPIO_ID
+#define SPORT_DV_DVP_POWER_GPIO_ID CONFIG_DVP_CTRL_POWER_GPIO_ID
+#else
+#define SPORT_DV_DVP_POWER_GPIO_ID SPORT_DV_GPIO_INVALID_ID
+#endif

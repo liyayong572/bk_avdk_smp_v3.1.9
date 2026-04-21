@@ -6,6 +6,7 @@ set(srcs ap_main.c
     dma2d/src/dma2d_memcpy_test.c
     dma2d/src/dma2d_pfc_test.c
     dma2d/src/dma2d_blend_test.c
+    dma2d/src/dma2d_yuv_blend.c
     )
 
 list(APPEND srcs

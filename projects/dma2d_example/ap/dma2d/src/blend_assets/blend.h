@@ -11,11 +11,12 @@ extern const bk_blend_t img_wifi_rssi3;
 extern const bk_blend_t img_wifi_rssi4;
 extern const bk_blend_t img_battery1;
 extern const bk_blend_t img_cloudy_to_sunny;
+extern const bk_blend_t img_video_record;
+extern const bk_blend_t img_card;
 
 extern const blend_info_t blend_assets[];
 extern const blend_info_t blend_info[];
 
 #endif
-
 
 

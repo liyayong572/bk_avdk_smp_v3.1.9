@@ -1037,7 +1037,7 @@ CONFIG_HTTP_OTA_WITH_BLE=y
 # CONFIG_CJSON_USE is not set
 # end of json
 
-# CONFIG_BUTTON is not set
+CONFIG_BUTTON=y
 
 #
 # Key_Handle

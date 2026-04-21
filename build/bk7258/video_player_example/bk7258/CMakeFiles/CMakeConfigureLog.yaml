@@ -82,8 +82,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-99CaTH"
-      binary: "/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-99CaTH"
+      source: "/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-OAoqfW"
+      binary: "/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-OAoqfW"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -92,10 +92,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-99CaTH'
+        Change Dir: '/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-OAoqfW'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_9780c
-        [1/2] /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc   -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib    -v -o CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/ninja -v cmTC_10d9b
+        [1/2] /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc   -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib    -v -o CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -103,8 +103,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
-         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/hard -iprefix /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -D__USES_INITFINI__ -D WIFI_BLE_COEXIST -D CONFIG_CMAKE=1 -D BK_MAC=1 /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -mthumb -mlibarch=armv8-m.main+fp -march=armv8-m.main+fp -auxbase-strip CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccF5jJ6Q.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
+         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/hard -iprefix /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -D__USES_INITFINI__ -D WIFI_BLE_COEXIST -D CONFIG_CMAKE=1 -D BK_MAC=1 /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -mthumb -mlibarch=armv8-m.main+fp -march=armv8-m.main+fp -auxbase-strip CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccYRfTQV.s
         GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 4.8.4, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
@@ -125,13 +125,13 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: ada28fdd13bdd399f195284d34df0081
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
-         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main -mfloat-abi=hard -mfpu=fpv5-sp-d16 -meabi=5 -o CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj /tmp/ccF5jJ6Q.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
+         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main -mfloat-abi=hard -mfpu=fpv5-sp-d16 -meabi=5 -o CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj /tmp/ccYRfTQV.s
         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
         COMPILER_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
-        [2/2] : && /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib -v CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj -o cmTC_9780c  -lm  -lgcc  -lc  -lnosys && :
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
+        [2/2] : && /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib -v CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj -o cmTC_10d9b  -lm  -lgcc  -lc  -lnosys && :
         Using built-in specs.
         COLLECT_GCC=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc
         COLLECT_LTO_WRAPPER=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper
@@ -142,10 +142,10 @@ events:
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
         COMPILER_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'cmTC_9780c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
-         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAD1Dsx.res --sysroot=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -X -o cmTC_9780c -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj -lm -lgcc -lc -lnosys
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'cmTC_10d9b' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
+         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKCtC0A.res --sysroot=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -X -o cmTC_10d9b -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj -lm -lgcc -lc -lnosys
         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'cmTC_9780c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'cmTC_10d9b' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
         
       exitCode: 0
   -
@@ -179,10 +179,10 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-99CaTH']
+        ignore line: [Change Dir: '/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-OAoqfW']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_9780c]
-        ignore line: [[1/2] /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc   -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib    -v -o CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_10d9b]
+        ignore line: [[1/2] /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc   -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib    -v -o CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -190,8 +190,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
-        ignore line: [ /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/hard -iprefix /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -D__USES_INITFINI__ -D WIFI_BLE_COEXIST -D CONFIG_CMAKE=1 -D BK_MAC=1 /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -mthumb -mlibarch=armv8-m.main+fp -march=armv8-m.main+fp -auxbase-strip CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccF5jJ6Q.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
+        ignore line: [ /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/hard -iprefix /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -D__USES_INITFINI__ -D WIFI_BLE_COEXIST -D CONFIG_CMAKE=1 -D BK_MAC=1 /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -mthumb -mlibarch=armv8-m.main+fp -march=armv8-m.main+fp -auxbase-strip CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccYRfTQV.s]
         ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
@@ -212,13 +212,13 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: ada28fdd13bdd399f195284d34df0081]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
-        ignore line: [ /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main -mfloat-abi=hard -mfpu=fpv5-sp-d16 -meabi=5 -o CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj /tmp/ccF5jJ6Q.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
+        ignore line: [ /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main -mfloat-abi=hard -mfpu=fpv5-sp-d16 -meabi=5 -o CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj /tmp/ccYRfTQV.s]
         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
         ignore line: [COMPILER_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
-        ignore line: [[2/2] : && /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib -v CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj -o cmTC_9780c  -lm  -lgcc  -lc  -lnosys && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
+        ignore line: [[2/2] : && /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib -v CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj -o cmTC_10d9b  -lm  -lgcc  -lc  -lnosys && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper]
@@ -229,17 +229,17 @@ events:
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
         ignore line: [COMPILER_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'cmTC_9780c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
-        link line: [ /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAD1Dsx.res --sysroot=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -X -o cmTC_9780c -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj -lm -lgcc -lc -lnosys]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'cmTC_10d9b' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
+        link line: [ /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKCtC0A.res --sysroot=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -X -o cmTC_10d9b -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj -lm -lgcc -lc -lnosys]
           arg [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccAD1Dsx.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccKCtC0A.res] ==> ignore
           arg [--sysroot=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9780c] ==> ignore
+          arg [cmTC_10d9b] ==> ignore
           arg [-L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard] ==> dir [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard]
           arg [-L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard] ==> dir [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard]
           arg [-L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard] ==> dir [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard]
@@ -247,7 +247,7 @@ events:
           arg [-L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc] ==> dir [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc]
           arg [-L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
           arg [-L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib] ==> dir [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib]
-          arg [CMakeFiles/cmTC_9780c.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_10d9b.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
@@ -275,8 +275,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-cBXBvg"
-      binary: "/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-cBXBvg"
+      source: "/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-L26idZ"
+      binary: "/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-L26idZ"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib"
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -285,10 +285,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-cBXBvg'
+        Change Dir: '/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-L26idZ'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_4241f
-        [1/2] /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++   -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib    -v -o CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja -v cmTC_2189f
+        [1/2] /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++   -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib    -v -o CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -296,8 +296,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
-         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/hard -iprefix /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -D__USES_INITFINI__ -D WIFI_BLE_COEXIST -D CONFIG_CMAKE=1 -D BK_MAC=1 /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -mthumb -mlibarch=armv8-m.main+fp -march=armv8-m.main+fp -auxbase-strip CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/cc7xxkOT.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
+         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/hard -iprefix /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -D__USES_INITFINI__ -D WIFI_BLE_COEXIST -D CONFIG_CMAKE=1 -D BK_MAC=1 /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -mthumb -mlibarch=armv8-m.main+fp -march=armv8-m.main+fp -auxbase-strip CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccdiXMX8.s
         GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 4.8.4, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
@@ -324,13 +324,13 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 62a2c0a0f0d30bb0bbe5c686601adbb0
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
-         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main -mfloat-abi=hard -mfpu=fpv5-sp-d16 -meabi=5 -o CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc7xxkOT.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
+         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main -mfloat-abi=hard -mfpu=fpv5-sp-d16 -meabi=5 -o CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccdiXMX8.s
         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
         COMPILER_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
-        [2/2] : && /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib -v CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_4241f  -lm  -lgcc  -lc  -lnosys && :
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
+        [2/2] : && /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib -v CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2189f  -lm  -lgcc  -lc  -lnosys && :
         Using built-in specs.
         COLLECT_GCC=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++
         COLLECT_LTO_WRAPPER=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper
@@ -341,10 +341,10 @@ events:
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
         COMPILER_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'cmTC_4241f' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
-         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp1XeVn.res --sysroot=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -X -o cmTC_4241f -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj -lm -lgcc -lc -lnosys
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'cmTC_2189f' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
+         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1mvsHp.res --sysroot=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -X -o cmTC_2189f -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj -lm -lgcc -lc -lnosys
         /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'cmTC_4241f' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'cmTC_2189f' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp'
         
       exitCode: 0
   -
@@ -384,10 +384,10 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-cBXBvg']
+        ignore line: [Change Dir: '/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/build/bk7258/video_player_example/bk7258/CMakeFiles/CMakeScratch/TryCompile-L26idZ']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_4241f]
-        ignore line: [[1/2] /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++   -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib    -v -o CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_2189f]
+        ignore line: [[1/2] /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++   -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib    -v -o CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -395,8 +395,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
-        ignore line: [ /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/hard -iprefix /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -D__USES_INITFINI__ -D WIFI_BLE_COEXIST -D CONFIG_CMAKE=1 -D BK_MAC=1 /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -mthumb -mlibarch=armv8-m.main+fp -march=armv8-m.main+fp -auxbase-strip CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/cc7xxkOT.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
+        ignore line: [ /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/hard -iprefix /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -D__USES_INITFINI__ -D WIFI_BLE_COEXIST -D CONFIG_CMAKE=1 -D BK_MAC=1 /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -mthumb -mlibarch=armv8-m.main+fp -march=armv8-m.main+fp -auxbase-strip CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccdiXMX8.s]
         ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
@@ -423,13 +423,13 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 62a2c0a0f0d30bb0bbe5c686601adbb0]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
-        ignore line: [ /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main -mfloat-abi=hard -mfpu=fpv5-sp-d16 -meabi=5 -o CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc7xxkOT.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
+        ignore line: [ /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main -mfloat-abi=hard -mfpu=fpv5-sp-d16 -meabi=5 -o CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccdiXMX8.s]
         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
         ignore line: [COMPILER_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
-        ignore line: [[2/2] : && /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib -v CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_4241f  -lm  -lgcc  -lc  -lnosys && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
+        ignore line: [[2/2] : && /opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ -mcpu=cortex-m33+nodsp -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mcmse -DWIFI_BLE_COEXIST -DCONFIG_CMAKE=1 -DBK_MAC=1 -nostdlib -v CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2189f  -lm  -lgcc  -lc  -lnosys && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper]
@@ -440,17 +440,17 @@ events:
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
         ignore line: [COMPILER_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'cmTC_4241f' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
-        link line: [ /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp1XeVn.res --sysroot=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -X -o cmTC_4241f -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj -lm -lgcc -lc -lnosys]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33+nodsp' '-mfpu=fpv5-sp-d16' '-mfloat-abi=hard' '-mcmse' '-D' 'WIFI_BLE_COEXIST' '-D' 'CONFIG_CMAKE=1' '-D' 'BK_MAC=1' '-nostdlib' '-v' '-o' 'cmTC_2189f' '-mthumb' '-mlibarch=armv8-m.main+fp' '-march=armv8-m.main+fp']
+        link line: [ /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1mvsHp.res --sysroot=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi -X -o cmTC_2189f -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj -lm -lgcc -lc -lnosys]
           arg [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccp1XeVn.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc1mvsHp.res] ==> ignore
           arg [--sysroot=/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_4241f] ==> ignore
+          arg [cmTC_2189f] ==> ignore
           arg [-L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard] ==> dir [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard]
           arg [-L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard] ==> dir [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard]
           arg [-L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard] ==> dir [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/hard]
@@ -458,7 +458,7 @@ events:
           arg [-L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc] ==> dir [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc]
           arg [-L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
           arg [-L/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib] ==> dir [/opt/gcc-arm-none-eabi-10.3-2021.10/bin/../arm-none-eabi/lib]
-          arg [CMakeFiles/cmTC_4241f.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_2189f.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
