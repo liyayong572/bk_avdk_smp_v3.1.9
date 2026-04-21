@@ -15,7 +15,7 @@
 #include <stdio.h>
 #endif
 
-#if CONFIG_LV_USE_DEMO_WIDGETS
+#if 0//CONFIG_LV_USE_DEMO_WIDGETS
 #include "components/bk_display.h"
 #include "driver/gpio.h"
 #include "gpio_driver.h"

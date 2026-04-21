@@ -6,6 +6,8 @@ set(srcs ap_main.c
         sport_dv/src/sport_dv_keys.c
         sport_dv/src/sport_dv_preview.c
         sport_dv/src/sport_dv_video_rec.c
+        sport_dv/src/blend_assets/bk_img.c
+        sport_dv/src/blend_assets/blend_dsc.c
         video_player_cli/src/audio_recorder_device.c
         )
 

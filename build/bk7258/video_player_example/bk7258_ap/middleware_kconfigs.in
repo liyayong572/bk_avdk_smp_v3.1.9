@@ -1,4 +1,0 @@
-source "/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/middleware/arch/cm33/Kconfig"
-source "/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/middleware/compal/Kconfig"
-source "/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/middleware/driver/Kconfig"
-source "/home/liyy/work/bk7258/bk_avdk_smp_v3.1.9/ap/middleware/soc/bk7258_ap/Kconfig"
